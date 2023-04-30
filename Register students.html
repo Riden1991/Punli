@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Punli</title>
+  <script src="https://kit.fontawesome.com/220843fbfe.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Ultra&display=swap" rel="stylesheet" />
+  <link rel="icon" href="img/Punli-icon.ico">
+
+<body>
+  <header>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fa-solid fa-bars"></i>
+    </label>
+    <nav class="navegacion">
+      <h1 id="titulo">Punli</h1>
+      <ul class="menu">
+        <li><a href="sign in.html">Sign in</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="explore.html">Explore</a>
+          <ul class="submenu2">
+            <li><a href="explore.html#acerca">About us</a></li>
+            <li><a href="explore.html#newstitle">Punli News</a></li>
+            <li><a href="explore.html#communitytitle">Community</a></li>
+            <li><a href="explore.html#recomendationstitle">Recomendations</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#">User guide</a>
+          <ul class="submenu3">
+            <li><a href="#">Payment guide</a></li>
+            <li><a href="#">Teacher's guide</a></li>
+            <li><a href="#">Student's guide</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Browse Categories</a>
+          <ul class="submenu">
+            <li><a href="#">Graphics and design</a></li>
+            <li><a href="#">Digital Marketing</a></li>
+            <li><a href="#">Writing and Grammar</a></li>
+            <li><a href="#">Idioms</a></li>
+            <li><a href="#">Video and animation</a></li>
+            <li><a href="#">Music and audio</a></li>
+            <li><a href="#">Programming and tech</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">Lifestyle</a></li>
+            <li><a href="#">Data and analytics</a></li>
+            <li><a href="#">School tutoring</a></li>
+          </ul>
+      </ul>
+
+    </nav>
+
+  </header>
+  <form id="form" action="conexion.php" method="post">
+    <label class="nameteacher" for="nameteacher">Name:</label>
+    <input type="text" name="nameteacher" id="first_name" placeholder="Enter your name"><br>
+
+    <label class="lastnameteacher" for="lastnameteacher">Last Name:</label>
+    <input type="text" name="lastnameteacher" id="last_name" placeholder="Enter your last name"><br>
+
+    <label class="birthdate" for="birthdate">Birth date:</label>
+    <select id="birthday_day" name="birthday_day">
+      <option value=""></option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>
+      <option value="18">18</option>
+      <option value="19">19</option>
+      <option value="20">20</option>
+      <option value="21">21</option>
+      <option value="22">22</option>
+      <option value="23">23</option>
+      <option value="24">24</option>
+      <option value="25">25</option>
+      <option value="26">26</option>
+      <option value="27">27</option>
+      <option value="28">28</option>
+      <option value="29">29</option>
+      <option value="29">29</option>
+      <option value="30">30</option>
+      <option value="31">31</option>
+      <input class="month" type="month" value="1985-01" min="1950-01" max="2010-12"><br>
+
+      <label class="number" for="number">Age:</label>
+      <input type="number" id="Age" name="Age" placeholder="How old are you?"><br>
+
+
+      <label class="username" for="username">Username:</label>
+      <input type="text" id="username" name="username" placeholder="Enter your username"><br>
+
+      <label class="number" for="number">Phone Number:</label>
+      <input type="number" id="number" name="number" placeholder="+593 9675511199"><br>
+
+      <label class="email" for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your Email address"><br>
+
+      <label class="password" for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter the password for this site"><br>
+
+      <label class="confirm_password" for="password">Confirm Password:</label>
+      <input type="password" id="confirm_password" name="confirm_password"
+        placeholder="Please confirm your new password for this site"><br>
+
+      <input type="submit" value="Register">
+  </form>
+
+  <FOOter>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Contacto</h3>
+          <ul>
+            <li>Ecuador</li>
+            <li>Teléfono: +123 456 7890</li>
+            <li>Email: info@ejemplo.com</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3>Enlaces</h3>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Política de privacidad</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3>Síguenos</h3>
+          <ul class="redes-sociales">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      Copyright &copy; 2023. Todos los derechos reservados.
+    </div>
+    <section>
+      <a href="https://www.freepik.es/vector-gratis/fondo-dia-maestro-dibujado-mano-espanol_25182514.htm">Imágenes
+        creadas por Freepik</a>
+    </section>
+  </FOOter>
+  <script src="validación de form.js"></script>
+</body>
+
+</html>

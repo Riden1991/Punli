@@ -1,0 +1,443 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+} 
+body{
+    font-family: 'Jacques Francois Shadow', cursive;
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    position: relative;
+    padding-bottom: 825px;
+    min-height: 100vh;
+} 
+img{
+    margin: 50px auto;
+    margin-bottom: 40px;
+    width: 180px;
+    height: 180px;
+    border-radius: 15px;
+    border-color: aqua;
+    border-style: outset;
+    font-size: large;
+    
+}
+
+
+img:hover{
+    transform: translateY(-5px);
+    
+}
+.imagen{
+    margin: 50px auto;
+    margin-bottom: 50px;
+    width: 180px;
+    height: 180px;
+    font-size: larger;
+    
+}
+.imagen h2{
+    color: black;
+}
+
+footer{
+    padding: 20px 0;
+    transition: all 0.3s ease;
+    transition: color 0.3s ease;
+    color: rgb(2, 29, 83);
+    background-color: aquamarine;
+    border-radius: 15px;
+    border-color: aqua;
+    border-style: outset;
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,3);
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    align-items: center;
+  }
+.col-md-4 {
+    flex: 1;
+}
+.redes-sociales li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+.copyright {
+    background-color: rgb(12, 160, 165);
+    color: rgb(8, 5, 5);
+    text-align: center;
+    padding: 10px 0;
+  }
+
+
+header h1{
+    margin: 60px 0 -40px 0; 
+    color:rgb(21, 148, 221);
+    font-family: 'Fredoka One', cursive;
+    font-size: 100px;
+    text-decoration-line: unset;
+    text-shadow: 0 0.1rem 0.4rem rgba(0,0,0,3) ;
+    position:absolute;
+    left: 55px;
+    top: -50px;
+}
+header{
+  background-color: aliceblue;
+  border-radius: 15px;
+  border-style: outset;
+  border-color: aqua;
+  padding: 4rem;
+  box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,3);
+}
+header h1:hover{
+  transform: translateY(-5px)
+}
+.navegacion{
+    width: 1220px;
+    margin: 30px auto;
+    margin-top: 10px;
+
+}
+.navegacion ul{
+    list-style: none;
+    float: right;
+   
+
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+    font-size: small;
+    
+    
+}
+.menu > li > a{
+    display: block;
+    padding: 5px 40px;
+}
+.submenu{
+    position: absolute;
+    width: 100%;
+    border: 5px;
+    border-color: rgb(162, 203, 245);
+    border-style: outset;
+    background-color: rgb(214, 228, 236);
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+    z-index: 1000;
+    height: 86vh;
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+.submenu li a{
+    display: block;
+    padding: 15px;
+    
+}
+.submenu2{
+    position: absolute;
+    width: 100%;
+    border: 5px;
+    border-color: rgb(162, 203, 245);
+    border-style: outset;
+    background-color: rgb(214, 228, 236);
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+    z-index: 1000;
+}
+.menu li:hover .submenu2{
+    visibility: visible;
+    opacity: 1;
+}
+.submenu2 li a{
+    display: block;
+    padding: 15px;
+}
+.submenu3{
+    position: absolute;
+    width: 100%;
+    border: 5px;
+    border-color: rgb(162, 203, 245);
+    border-style: outset;
+    background-color: rgb(214, 228, 236);
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+    z-index: 1000;
+}
+.submenu3 li a{
+    display: block;
+    padding: 15px;
+}
+.menu li:hover .submenu3{
+    visibility: visible;
+    opacity: 1;
+}
+nav > ul > li > a{
+    color: black;
+    margin: 2px;
+    font-size:small;
+    padding: 2px 7px 0 7px;
+    border-style: outset;
+    border-color: rgb(61, 137, 236);
+    background-color: rgb(21, 148, 221);
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+li a:hover{
+    background: rgb(14, 223, 238);
+    transition: 1s;
+}
+.checkbtn{
+    font-size: 40px;
+    color: rgb(35, 209, 221);
+    float: right;
+    line-height: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+    display:none;
+}
+#check{
+    display:none;
+}
+section:hover{
+    transform: translateY(5px);
+}
+section a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section p{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section a:hover{
+    color: gray;
+}
+@media (max-width:952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav > ul{
+        font-size: 16px;
+    }
+}
+@media (max-width:858px){
+    .checkbtn{
+        display: block;
+    }
+    nav > ul{
+        position: absolute;
+        width: 100%;
+        height: 120vh;
+        background: rgb(85, 247, 220) ;
+        top: 120px;
+        right: -100%;
+        text-align: center;
+        transition: all .5s;
+        border-radius: 10px;
+        border-style: outset;
+
+    }
+    .submenu{
+        height: 100vh;
+    }
+    nav > ul{
+        display: grid;
+        margin: 50px 0;
+        line-height: 25px;
+        overflow: scroll;
+        position: block;
+        z-index: 1;
+        
+    }
+    nav > ul{
+        font-size: 20px;
+    }
+    nav > ul:hover, .active{
+        background-repeat: repeat;
+        color: red;
+        
+        
+    }
+    #check:checked ~nav > ul{
+        right: 0;
+}
+
+}
+/* Estilo general para el formulario */
+form {
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 25px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+}
+
+/* Estilo para los encabezados de los campos del formulario */
+.username {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+.nameteacher{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+.lastnameteacher{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+.birthdate{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+#birthday_day{
+    width: 23%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.month{
+    width: 51%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.number{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+.email {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+.password {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+/* Estilo para los campos de entrada del formulario */
+input[type="text"], input[type="email"], input[type="password"],input[type="number"] {
+    width: 100%;
+    padding: 12px 35px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Estilo para el botón de enviar del formulario */
+input[type="submit"] {
+    background-color: #04daf7;
+    color: white;
+    padding: 12px 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para el botón de enviar del formulario al ser presionado */
+input[type="submit"]:hover {
+    background-color: #1198ce;
+}
+/* estilos para apartado de about us */
+.aboutusvideo{
+    margin: 50px;
+    border: #f7f7f7;
+    border-style: groove;
+    border-radius: 25px;
+    border-color: #04daf7;
+    float: left;
+    background-color: rgb(179, 157, 129);
+}
+.About{
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 40px;
+    
+}
+.acerca_text{
+    text-align: justify;
+   
+}
+.acerca{
+    padding-right: 30px;
+    
+}
+/* estilos para apartado de about us-Punlinews */
+.punlinews{
+    text-align: center;
+    margin: 50px;
+
+
+}
+.newstitle{
+    
+}
+.news{
+
+}
+/* estilos para apartado de about us-Community */
+.community{
+    text-align: center;
+    margin: 50px;
+}
+.communitytitle{
+
+}
+.communitytext{
+
+}
+/* estilos para apartado de about us-Recomendations */
+.recomendations{
+    text-align: center;
+    margin: 50px;
+}
+.recomendationstitle{
+
+}
+.recomendationtext{
+
+}
